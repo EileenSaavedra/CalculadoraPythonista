@@ -14,7 +14,7 @@ def menu():
     print("Select operation:")
     print("1. Suma")
     print("2. Resta")
-    print("3. Division")
+    print("4. Division")
 
 
     choice = int(input("Enter choice: "))
