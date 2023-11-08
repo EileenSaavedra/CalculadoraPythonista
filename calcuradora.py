@@ -14,10 +14,11 @@ def menu():
     print("Select operation:")
     print("1. Suma")
     print("2. Resta")
-    Print("3, multiplicacion")
+    print("3, multiplicacion")
 
     choice = int(input("Enter choice: "))
     return choice
+
 def perform_operation(choice):
     if choice == 1:
         a = float(input("Enter first number: "))
@@ -33,6 +34,7 @@ def perform_operation(choice):
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", multiply(a, b))
+        
 def main():
     while True:
         choice = menu()
